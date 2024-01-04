@@ -1,0 +1,22 @@
+{
+  "name": "projetoalpha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon src/server.ts"
+  },
+  "author": "peretta",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/validator": "^13.11.7"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.18.2",
+    "expresss": "^0.0.0",
+    "validator": "^13.11.0"
+  }
+}
